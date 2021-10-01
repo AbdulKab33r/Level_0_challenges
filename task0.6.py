@@ -9,3 +9,9 @@ def max_out(nums):
     return largest
 nums = [12, 5, 8]
 print (max_out(nums))
+
+def max_out():list(12,5,8)
+list = (12,5,8)
+for x in list:
+        if x >= range(1, 20):
+            print(x)
