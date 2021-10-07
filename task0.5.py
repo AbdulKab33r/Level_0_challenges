@@ -1,7 +1,8 @@
-def t_area(x, y, z):
-    return (x + y + z) * 1/2
+def triangle_area(side1, side2, side3): 
+    '''This will print the area of a trianlge using the side lengths'''
+    print ('The area of this triangle is:')
+    return (side1 + side2 + side3) * 1/2
 
-x = 3
-y = 4
-z = 5
-print (t_area(x, y, z))
+result = triangle_area(3, 4, 5)
+
+print(result)
