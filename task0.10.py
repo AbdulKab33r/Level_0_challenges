@@ -1,3 +1,4 @@
+#This program will print the common letters in two strings.
 a = ("Solo") 
 b = ("learning")
 
@@ -8,4 +9,4 @@ def extract_common(colist):
             comlist.append(x)
             return comlist
 
-print (extract_common(a and b))
+print ( "Common Letters:", extract_common(a and b))
