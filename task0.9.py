@@ -1,11 +1,12 @@
-data = ("solO")
-vowels = ('a','e','i','o','u','A','E','I','O','U')
+#This would extra the and print the vowels found in string.
+data = ("solO LeArn")
+data = data.lower()
+vowels = ('a','e','i','o','u')
 
-def vowel_extract(vox):
+def vowel_extract(data):
     extracted = []
-    for x in vox:
+    for x in data:
         if x in vowels:
-            extracted.append(x)
-            return (extracted)
+            print(x, "is a vowel")
 
-print (vowel_extract(data))          
+vowel_extract(data)       
