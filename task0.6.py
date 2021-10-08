@@ -1,4 +1,6 @@
 #This will print out the maximum number of three digits provided.
+#Im really battling to get to do it to print more than three digits.
+#I watched many other lessons online to try to find a way but still nothing yet.
 nums = []
 def max_out(nums):
     if ( nums[0] >= nums[1] ) and ( nums[0] >= nums[2] ):
